@@ -28,6 +28,7 @@ import { PTRConfig } from './ptr.config';
   encapsulation: ViewEncapsulation.None,
 })
 export class PTRComponent implements OnInit {
+  private ogX: number = 0;
   private ogY: number = 0;
   private touching: boolean = false;
   private touchId: any;
@@ -91,8 +92,8 @@ export class PTRComponent implements OnInit {
     if (this.disabled || this.touching || this.loading) return;
     this.touching = true;
     this.touchId = $event.targetTouches[0].identifier;
-    this.ogY =
-      this._pullPercent === 0 ? $event.targetTouches[0].pageY : $event.targetTouches[0].pageY - this._pullPercent;
+    this.ogX = $event.targetTouches[0].pageX;
+    this.ogY = this._pullPercent === 0 ? $event.targetTouches[0].pageY : $event.targetTouches[0].pageY - this._pullPercent;
     this.initScrollTop = this.contentEl.scrollTop;
     this._animating = false;
   }
@@ -103,6 +104,15 @@ export class PTRComponent implements OnInit {
 
     const pageY = $event.targetTouches[0].pageY;
     const diffY = pageY - this.ogY;
+
+    const pageX = $event.targetTouches[0].pageX;
+    const diffX = pageX - this.ogX;
+
+    // 不响应横向滑动
+    if (Math.abs(diffX) > Math.abs(diffY)) {
+      console.debug(`PTRComponent 不响应横向滑动`);
+      return;
+    }
     // if it's scroll
     if (diffY < 0) return;
     // if it's not at top
