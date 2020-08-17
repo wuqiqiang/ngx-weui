@@ -1,5 +1,5 @@
 import { Directive, ElementRef, Input, OnChanges } from '@angular/core';
-import { genImageUrl } from 'ngx-weui/core';
+import { genImageUrl } from 'evm-ngx-weui/core';
 
 /**
  * 创建缩略图

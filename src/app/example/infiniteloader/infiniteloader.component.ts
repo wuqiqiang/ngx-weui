@@ -1,7 +1,7 @@
 import { Component, ViewChild, ViewEncapsulation } from '@angular/core';
 import { timer } from 'rxjs';
 
-import { InfiniteLoaderComponent } from 'ngx-weui/infiniteloader';
+import { InfiniteLoaderComponent } from 'evm-ngx-weui/infiniteloader';
 
 @Component({
   selector: 'example-infiniteloader',

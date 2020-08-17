@@ -1,6 +1,6 @@
 import { DOCUMENT } from '@angular/common';
 import { ApplicationRef, ComponentFactoryResolver, Inject, Injectable, Injector } from '@angular/core';
-import { BaseService } from 'ngx-weui/core';
+import { BaseService } from 'evm-ngx-weui/core';
 import { Observable } from 'rxjs';
 import { ActionSheetComponent } from './actionsheet.component';
 import { ActionSheetConfig } from './actionsheet.config';

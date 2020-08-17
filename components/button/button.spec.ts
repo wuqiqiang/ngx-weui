@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { ComponentFixture, ComponentFixtureAutoDetect, TestBed } from '@angular/core/testing';
 import { FormsModule } from '@angular/forms';
-import { ButtonType, UpdateHostClassService } from 'ngx-weui/core';
+import { ButtonType, UpdateHostClassService } from 'evm-ngx-weui/core';
 
 import { ButtonComponent, ButtonModule } from '../button';
 

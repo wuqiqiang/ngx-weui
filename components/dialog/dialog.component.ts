@@ -11,7 +11,7 @@ import {
 } from '@angular/core';
 import { Observable, Observer, Subscription } from 'rxjs';
 
-import { isAndroid } from 'ngx-weui/core';
+import { isAndroid } from 'evm-ngx-weui/core';
 import { DialogConfig } from './dialog.config';
 
 /**

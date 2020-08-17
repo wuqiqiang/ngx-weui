@@ -3,7 +3,7 @@ import { ComponentFixture, ComponentFixtureAutoDetect, fakeAsync, inject, TestBe
 import { FormsModule } from '@angular/forms';
 import { By } from '@angular/platform-browser';
 import { NoopAnimationsModule } from '@angular/platform-browser/animations';
-import { isAndroid } from 'ngx-weui/core';
+import { isAndroid } from 'evm-ngx-weui/core';
 import { DialogComponent, DialogConfig, DialogModule, DialogService } from '../dialog';
 
 const CONFIG: DialogConfig = {
@@ -202,7 +202,7 @@ describe('Component: Dialog', () => {
         result: 'asdf@qq.com',
         inputRequired: true,
       },
-      { input: 'url', inputValue: 'https://cipchk.github.io/ngx-weui/' },
+      { input: 'url', inputValue: 'https://cipchk.github.io/evm-ngx-weui/' },
     ];
     for (const item of TYPES) {
       it(`should be return ${item.input}`, done => {

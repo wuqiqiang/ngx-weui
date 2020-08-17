@@ -1,6 +1,6 @@
 
 <h1 align="center">
-NGX-WEUI
+ngx-weui
 </h1>
 
 <div align="center">

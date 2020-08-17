@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { ButtonType, InputData, InputType, SkinType } from 'ngx-weui/core';
+import { ButtonType, InputData, InputType, SkinType } from 'evm-ngx-weui/core';
 
 @Injectable({ providedIn: 'root' })
 export class DialogConfig {

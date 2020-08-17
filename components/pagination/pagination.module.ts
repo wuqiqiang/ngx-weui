@@ -1,6 +1,6 @@
 import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
-import { ButtonModule } from 'ngx-weui/button';
+import { ButtonModule } from 'evm-ngx-weui/button';
 
 import { PaginationComponent } from './pagination.component';
 

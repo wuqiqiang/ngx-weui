@@ -9,7 +9,7 @@ import {
   Output,
   ViewEncapsulation,
 } from '@angular/core';
-import { isAndroid } from 'ngx-weui/core';
+import { isAndroid } from 'evm-ngx-weui/core';
 import { Observable, Observer, Subscription } from 'rxjs';
 import { ActionSheetConfig } from './actionsheet.config';
 import { ActionSheetMenuItem } from './actionsheet.types';

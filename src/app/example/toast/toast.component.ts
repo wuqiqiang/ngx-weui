@@ -1,5 +1,5 @@
 import { Component, ViewChild, ViewEncapsulation } from '@angular/core';
-import { ToastComponent, ToastService } from 'ngx-weui/toast';
+import { ToastComponent, ToastService } from 'evm-ngx-weui/toast';
 
 @Component({
   selector: 'example-toast',

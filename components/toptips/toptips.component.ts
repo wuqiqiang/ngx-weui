@@ -10,16 +10,14 @@ import {
   Output,
   ViewEncapsulation,
 } from '@angular/core';
-import { InputNumber, UpdateHostClassService } from 'ngx-weui/core';
+import { InputNumber, UpdateHostClassService } from 'evm-ngx-weui/core';
 
 export type ToptipsType = 'default' | 'warn' | 'info' | 'primary' | 'success';
 
 @Component({
   selector: 'weui-toptips',
   exportAs: 'weuiToptips',
-  template: `
-    {{ text }}<ng-content></ng-content>
-  `,
+  template: ` {{ text }}<ng-content></ng-content> `,
   host: {
     '[hidden]': '!_showd',
     '[style.display]': '_showd ? "block" : "none"',

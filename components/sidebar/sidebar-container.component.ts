@@ -16,7 +16,7 @@ import {
   SimpleChanges,
   ViewEncapsulation,
 } from '@angular/core';
-import { InputBoolean } from 'ngx-weui/core';
+import { InputBoolean } from 'evm-ngx-weui/core';
 import { SidebarComponent } from './sidebar.component';
 
 /**

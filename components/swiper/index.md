@@ -5,7 +5,7 @@ config: SwiperConfig
 module: SwiperModule
 ---
 
-Swiper触摸滑动，是[swiper](http://idangero.us/swiper/)的简单封装而已，默认 `ngx-weui` 并不强制依赖 `swiper`，所以如果你需要这个模块，还需要配置自行安装 swiper 插件：
+Swiper触摸滑动，是[swiper](http://idangero.us/swiper/)的简单封装而已，默认 `evm-ngx-weui` 并不强制依赖 `swiper`，所以如果你需要这个模块，还需要配置自行安装 swiper 插件：
 
 ```bash
 npm install swiper --save

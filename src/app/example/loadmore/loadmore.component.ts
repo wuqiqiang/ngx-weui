@@ -1,5 +1,5 @@
 import { Component, ViewEncapsulation } from '@angular/core';
-import { LoadmoreType } from 'ngx-weui/loadmore';
+import { LoadmoreType } from 'evm-ngx-weui/loadmore';
 
 @Component({
   selector: 'example-loadmore',

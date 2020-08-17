@@ -3,17 +3,17 @@ subtitle: 微信JS SDK
 module: JWeiXinModule
 ---
 
-`ngx-weui` 只对js-sdk提供以下特性：
+`evm-ngx-weui` 只对js-sdk提供以下特性：
 
 + 完整 js-sdk 的接口声明文件。
 + 懒加载 **jweixin-1.2.0.js** 文件。
 
 > ## 声明文件使用说明（非常重要）
 
-> `ngx-weui` 允许你单独使用这份声明文件，而无须任何模块的导入。
+> `evm-ngx-weui` 允许你单独使用这份声明文件，而无须任何模块的导入。
 
 > ```typescript
-> import * as wx from 'ngx-weui/jweixin/jweixin';
+> import * as wx from 'evm-ngx-weui/jweixin/jweixin';
 
 > wx.config({
 
@@ -70,7 +70,7 @@ export class AppComponent {
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs';
-import { JWeiXinService } from 'ngx-weui/jweixin';
+import { JWeiXinService } from 'evm-ngx-weui/jweixin';
 
 declare var wx: any;
 

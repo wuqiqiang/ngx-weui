@@ -3,7 +3,7 @@ export interface PickerOptions {
    * 类型
    * default：无任何显示
    * form：会以表单的形式出现
-   * @see https://cipchk.github.io/ngx-weui/#/example/picker
+   * @see https://cipchk.github.io/evm-ngx-weui/#/example/picker
    */
   type?: 'default' | 'form';
 

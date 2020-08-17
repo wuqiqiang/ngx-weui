@@ -1,7 +1,7 @@
 import { Component, OnInit, ViewEncapsulation } from '@angular/core';
 import { timer } from 'rxjs';
 
-import { PTRComponent } from 'ngx-weui/ptr';
+import { PTRComponent } from 'evm-ngx-weui/ptr';
 
 @Component({
   selector: 'example-ptr',

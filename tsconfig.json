@@ -15,7 +15,7 @@
     "lib": ["es2018", "dom"],
     "baseUrl": "./",
     "paths": {
-      "ngx-weui/*": ["./components/*"]
+      "evm-ngx-weui/*": ["./components/*"]
     },
     "noUnusedParameters": true,
     "noUnusedLocals": true,

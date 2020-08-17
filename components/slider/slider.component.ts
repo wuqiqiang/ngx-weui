@@ -13,7 +13,7 @@ import {
   ViewEncapsulation,
 } from '@angular/core';
 import { ControlValueAccessor, NG_VALUE_ACCESSOR } from '@angular/forms';
-import { InputBoolean, InputNumber } from 'ngx-weui/core';
+import { InputBoolean, InputNumber } from 'evm-ngx-weui/core';
 
 @Component({
   selector: 'weui-slider, [weui-slider]',

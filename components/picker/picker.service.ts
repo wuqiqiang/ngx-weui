@@ -1,6 +1,6 @@
 import { DOCUMENT } from '@angular/common';
 import { ApplicationRef, ComponentFactoryResolver, Inject, Injectable, Injector } from '@angular/core';
-import { BaseService } from 'ngx-weui/core';
+import { BaseService } from 'evm-ngx-weui/core';
 import { Observable } from 'rxjs';
 import { PickerData } from './data';
 import { PickerOptions } from './options';
@@ -13,12 +13,7 @@ import { PickerComponent } from './picker.component';
  */
 @Injectable({ providedIn: 'root' })
 export class PickerService extends BaseService {
-  constructor(
-    resolver: ComponentFactoryResolver,
-    applicationRef: ApplicationRef,
-    injector: Injector,
-    @Inject(DOCUMENT) doc: any,
-  ) {
+  constructor(resolver: ComponentFactoryResolver, applicationRef: ApplicationRef, injector: Injector, @Inject(DOCUMENT) doc: any) {
     super(resolver, applicationRef, injector, doc);
   }
 
@@ -31,12 +26,7 @@ export class PickerService extends BaseService {
    * @param options 配置项
    * @returns 务必订阅结果才会显示。
    */
-  show(
-    data: PickerData[][] | string[],
-    value?: any,
-    defaultSelect?: number[],
-    options?: PickerOptions,
-  ): Observable<any> {
+  show(data: PickerData[][] | string[], value?: any, defaultSelect?: number[], options?: PickerOptions): Observable<any> {
     const componentRef = this.build(PickerComponent);
     // 通过Service打开的强制设置为 `default` 以免出现 `input`
     options = { ...options, type: 'default' };

@@ -1,5 +1,5 @@
 import { Directive, ElementRef, Input, OnInit } from '@angular/core';
-import { InputNumber } from 'ngx-weui/core';
+import { InputNumber } from 'evm-ngx-weui/core';
 
 /**
  * 单元格滑块

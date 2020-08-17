@@ -5,7 +5,7 @@ module: ChartG2Module
 
 [g2-mobile](https://antv.alipay.com/g2-mobile/doc/index.html) 由阿里团队开发的针对移动端的图表，GZIP后（23KB）左右，还是蛮适合移动端的。
 
-`weui-chart-g2` 对其进行封装；但 `ngx-weui` 本身并没有强制依赖 g2-mobile 依赖包。所以，如果你需要这个模块，那么有两种办法可以解决依赖：
+`weui-chart-g2` 对其进行封装；但 `evm-ngx-weui` 本身并没有强制依赖 g2-mobile 依赖包。所以，如果你需要这个模块，那么有两种办法可以解决依赖：
 
 **使用CND**
 

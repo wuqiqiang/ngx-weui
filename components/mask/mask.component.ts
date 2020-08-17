@@ -8,7 +8,7 @@ import {
   Output,
   ViewEncapsulation,
 } from '@angular/core';
-import { InputBoolean } from 'ngx-weui/core';
+import { InputBoolean } from 'evm-ngx-weui/core';
 import { Observable, Observer, Subscription } from 'rxjs';
 
 @Component({

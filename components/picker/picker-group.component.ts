@@ -9,7 +9,7 @@ import {
   SimpleChanges,
   ViewEncapsulation,
 } from '@angular/core';
-import { InputNumber } from 'ngx-weui/core';
+import { InputNumber } from 'evm-ngx-weui/core';
 import { PickerData } from './data';
 
 declare const window: any;

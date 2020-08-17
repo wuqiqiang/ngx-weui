@@ -1,5 +1,5 @@
 import { Component, ViewEncapsulation } from '@angular/core';
-import { RatingConfig } from 'ngx-weui/rating';
+import { RatingConfig } from 'evm-ngx-weui/rating';
 
 @Component({
   selector: 'example-rating',

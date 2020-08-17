@@ -1,5 +1,5 @@
 import { AfterViewInit, Component, ViewChild, ViewEncapsulation } from '@angular/core';
-import { ChartG2Directive } from 'ngx-weui/chart-g2';
+import { ChartG2Directive } from 'evm-ngx-weui/chart-g2';
 
 @Component({
   selector: 'example-chart-g2',

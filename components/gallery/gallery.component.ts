@@ -1,6 +1,6 @@
 import { animate, state, style, transition, trigger } from '@angular/animations';
 import { ChangeDetectionStrategy, Component, EventEmitter, Input, Output, ViewEncapsulation } from '@angular/core';
-import { genImageUrl, InputBoolean } from 'ngx-weui/core';
+import { genImageUrl, InputBoolean } from 'evm-ngx-weui/core';
 
 /**
  * 数据对象

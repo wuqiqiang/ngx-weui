@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { LoaderService } from 'ngx-weui/core';
+import { LoaderService } from 'evm-ngx-weui/core';
 
 @Injectable({ providedIn: 'root' })
 export class JWeiXinService {

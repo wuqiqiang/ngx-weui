@@ -3,7 +3,7 @@
   "dest": "../publish",
   "deleteDestPath": true,
   "lib": {
-    "flatModuleFile": "ngx-weui",
+    "flatModuleFile": "evm-ngx-weui",
     "entryFile": "public_api.ts"
   },
   "whitelistedNonPeerDependencies": ["tslib", "weui"]

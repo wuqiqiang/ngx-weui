@@ -4,14 +4,8 @@ import { Component } from '@angular/core';
   selector: 'app-issue',
   template: `
     <div class="weui-article">
-      <h2>ngx-weui</h2>
-      <weui-date-picker
-        placeholder="选择时间"
-        [(ngModel)]="time"
-        type="datetime"
-        [format]="format"
-        name="date2"
-      ></weui-date-picker>
+      <h2>evm-ngx-weui</h2>
+      <weui-date-picker placeholder="选择时间" [(ngModel)]="time" type="datetime" [format]="format" name="date2"></weui-date-picker>
       <p>result: {{ time }}</p>
       <button (click)="clear()">clear</button>
     </div>

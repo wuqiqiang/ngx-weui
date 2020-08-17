@@ -1,6 +1,6 @@
 import { Directive, ElementRef, forwardRef, Input, OnChanges, OnInit } from '@angular/core';
 import { AbstractControl, NG_VALIDATORS, ValidationErrors, Validator, ValidatorFn } from '@angular/forms';
-import { add, findParent, InputBoolean, remove } from 'ngx-weui/core';
+import { add, findParent, InputBoolean, remove } from 'evm-ngx-weui/core';
 
 /**
  * 文本框，指令是对文本框格式校验（邮箱、手机、身份证等）、视觉效果的增强而已
@@ -120,14 +120,18 @@ export class InputDirective implements OnInit, OnChanges, Validator {
   validate(c: AbstractControl): ValidationErrors | null {
     if (!this.parentEl) return null;
     const ret = this._validator(c);
+
     if (ret === null) {
       this.parentEl.classList.remove('weui-cell_warn');
       remove(this.ftEl, 'i');
     } else {
       remove(this.ftEl, 'i');
-      this.parentEl.classList.add('weui-cell_warn');
-      const icon = `weui-icon-${ret.icon}`;
-      add(this.ftEl, '.' + icon, 'i', icon);
+
+      if (!c.pristine) {
+        this.parentEl.classList.add('weui-cell_warn');
+        const icon = `weui-icon-${ret.icon}`;
+        add(this.ftEl, '.' + icon, 'i', icon);
+      }
     }
     return ret;
   }

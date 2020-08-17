@@ -1,13 +1,5 @@
-import {
-  ChangeDetectionStrategy,
-  Component,
-  EventEmitter,
-  Input,
-  OnDestroy,
-  Output,
-  ViewEncapsulation,
-} from '@angular/core';
-import { InputNumber } from 'ngx-weui/core';
+import { ChangeDetectionStrategy, Component, EventEmitter, Input, OnDestroy, Output, ViewEncapsulation } from '@angular/core';
+import { InputNumber } from 'evm-ngx-weui/core';
 import { ToastConfig } from './toast.config';
 
 @Component({

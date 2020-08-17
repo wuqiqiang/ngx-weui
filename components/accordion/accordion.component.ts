@@ -1,5 +1,5 @@
 import { ChangeDetectionStrategy, Component, EventEmitter, Input, Output, ViewEncapsulation } from '@angular/core';
-import { AnimateType, InputBoolean } from 'ngx-weui/core';
+import { AnimateType, InputBoolean } from 'evm-ngx-weui/core';
 import { AccordionPanelComponent } from './accordion-panel.component';
 import { AccordionConfig } from './accordion.config';
 

@@ -2,7 +2,7 @@ import { Component, ViewChild } from '@angular/core';
 import { ComponentFixture, ComponentFixtureAutoDetect, fakeAsync, inject, TestBed, tick } from '@angular/core/testing';
 import { FormsModule } from '@angular/forms';
 import { NoopAnimationsModule } from '@angular/platform-browser/animations';
-import { isAndroid } from 'ngx-weui/core';
+import { isAndroid } from 'evm-ngx-weui/core';
 import { ActionSheetComponent, ActionSheetConfig, ActionSheetMenuItem, ActionSheetModule, ActionSheetService } from './index';
 
 const MENUS: ActionSheetMenuItem[] = [

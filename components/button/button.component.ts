@@ -1,5 +1,5 @@
 import { ChangeDetectionStrategy, Component, ElementRef, Input, OnChanges, OnInit, ViewEncapsulation } from '@angular/core';
-import { ButtonType, InputBoolean, UpdateHostClassService } from 'ngx-weui/core';
+import { ButtonType, InputBoolean, UpdateHostClassService } from 'evm-ngx-weui/core';
 import { ButtonConfig } from './button.config';
 
 @Component({

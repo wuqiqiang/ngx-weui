@@ -1,13 +1,5 @@
-import {
-  ChangeDetectionStrategy,
-  ChangeDetectorRef,
-  Component,
-  EventEmitter,
-  Input,
-  Output,
-  ViewEncapsulation,
-} from '@angular/core';
-import { InputBoolean, InputNumber } from 'ngx-weui/core';
+import { ChangeDetectionStrategy, ChangeDetectorRef, Component, EventEmitter, Input, Output, ViewEncapsulation } from '@angular/core';
+import { InputBoolean, InputNumber } from 'evm-ngx-weui/core';
 
 @Component({
   selector: 'weui-progress',

@@ -1,6 +1,6 @@
 import { Component, OnDestroy, ViewChild, ViewEncapsulation } from '@angular/core';
-import { ActionSheetComponent, ActionSheetConfig, ActionSheetMenuItem, ActionSheetService } from 'ngx-weui/actionsheet';
-import { SkinType } from 'ngx-weui/core';
+import { ActionSheetComponent, ActionSheetConfig, ActionSheetMenuItem, ActionSheetService } from 'evm-ngx-weui/actionsheet';
+import { SkinType } from 'evm-ngx-weui/core';
 
 @Component({
   selector: 'example-actionsheet',

@@ -1,5 +1,5 @@
 import { Directive, EventEmitter, Input, OnChanges, OnDestroy, Output } from '@angular/core';
-import { InputBoolean } from 'ngx-weui/core';
+import { InputBoolean } from 'evm-ngx-weui/core';
 import { BarComponent } from './bar.component';
 
 @Directive({

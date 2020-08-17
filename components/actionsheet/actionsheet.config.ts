@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { SkinType } from 'ngx-weui/core';
+import { SkinType } from 'evm-ngx-weui/core';
 
 @Injectable({ providedIn: 'root' })
 export class ActionSheetConfig {

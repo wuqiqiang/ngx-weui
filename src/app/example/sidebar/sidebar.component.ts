@@ -1,5 +1,5 @@
 import { Component, ViewEncapsulation } from '@angular/core';
-import { ModeType, PositionType } from 'ngx-weui/sidebar';
+import { ModeType, PositionType } from 'evm-ngx-weui/sidebar';
 
 @Component({
   selector: 'example-sidebar',

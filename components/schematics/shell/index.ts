@@ -19,19 +19,19 @@ export default function (options: Schema): Rule {
 
 function addWeUIToPackageJson() {
   return (host: Tree, context: SchematicContext) => {
-    addPackageToPackageJson(host, 'dependencies', 'ngx-weui', weuiVersion);
+    addPackageToPackageJson(host, 'dependencies', 'evm-ngx-weui', weuiVersion);
     context.addTask(new NodePackageInstallTask());
     return host;
   };
 }
 
-/** Add ngx-weui module to app.module */
+/** Add evm-ngx-weui module to app.module */
 function addWeUIRootConfig(options: Schema) {
   return (host: Tree) => {
     const workspace = getWorkspace(host);
     const project = getProjectFromWorkspace(workspace, options.project);
 
-    addModuleImportToRootModule(host, 'ButtonModule', 'ngx-weui/button', project);
+    addModuleImportToRootModule(host, 'ButtonModule', 'evm-ngx-weui/button', project);
 
     return host;
   };
@@ -51,7 +51,7 @@ function addAnimationRootConfig(options: Schema) {
 
 const appHTML = `<div style="text-align:center; padding: 8px;">
   <h1>
-    NGX-WEUI
+    evm-ngx-weui
   </h1>
   <p>
     <a href="https://github.com/weui/weui" target="_blank">WeUI</a> for angular,

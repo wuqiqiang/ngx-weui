@@ -1,5 +1,5 @@
 import { ChangeDetectionStrategy, Component, Inject, Input, OnDestroy, OnInit, ViewEncapsulation } from '@angular/core';
-import { InputBoolean } from 'ngx-weui/core';
+import { InputBoolean } from 'evm-ngx-weui/core';
 import { AccordionComponent } from './accordion.component';
 
 @Component({

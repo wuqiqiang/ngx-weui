@@ -1,5 +1,5 @@
 import { ChangeDetectionStrategy, Component, EventEmitter, Input, OnChanges, Output, ViewEncapsulation } from '@angular/core';
-import { InputBoolean, InputNumber } from 'ngx-weui/core';
+import { InputBoolean, InputNumber } from 'evm-ngx-weui/core';
 import { PaginationConfig } from './pagination.config';
 import { PaginationMode } from './pagination.type';
 

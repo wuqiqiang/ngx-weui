@@ -1,5 +1,5 @@
 import { Component, Input, ViewEncapsulation } from '@angular/core';
-import { Uploader, UploaderOptions } from 'ngx-weui/uploader';
+import { Uploader, UploaderOptions } from 'evm-ngx-weui/uploader';
 
 @Component({
   selector: 'example-uploader',

@@ -13,6 +13,6 @@ export class EditButtonComponent {
 
   @Input()
   set item(data: any) {
-    this._full = `https://github.com/cipchk/ngx-weui/edit/master${data.path}`;
+    this._full = `https://github.com/cipchk/evm-ngx-weui/edit/master${data.path}`;
   }
 }

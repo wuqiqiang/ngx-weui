@@ -9,7 +9,7 @@
       "node"
     ],
     "paths": {
-      "ngx-weui/*": ["./*"]
+      "evm-ngx-weui/*": ["./*"]
     },
     "esModuleInterop": true,
     "noImplicitThis": false

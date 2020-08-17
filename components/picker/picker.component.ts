@@ -10,9 +10,10 @@ import {
   SimpleChange,
   SimpleChanges,
   ViewEncapsulation,
+  ChangeDetectorRef,
 } from '@angular/core';
 import { ControlValueAccessor, NG_VALUE_ACCESSOR } from '@angular/forms';
-import { InputBoolean } from 'ngx-weui/core';
+import { InputBoolean } from 'evm-ngx-weui/core';
 import { PickerData } from './data';
 import { PickerOptions } from './options';
 import { PickerConfig } from './picker.config';
@@ -94,7 +95,7 @@ export class PickerComponent implements ControlValueAccessor, OnInit, OnChanges 
   /** 隐藏后回调 */
   @Output() readonly hide = new EventEmitter();
 
-  constructor(private DEF: PickerConfig) {}
+  constructor(private DEF: PickerConfig, private cdr: ChangeDetectorRef) {}
 
   ngOnInit() {
     if (!this.options) this.parseOptions();
@@ -106,6 +107,8 @@ export class PickerComponent implements ControlValueAccessor, OnInit, OnChanges 
     setTimeout(() => {
       this._showP = false;
       this.hide.emit();
+
+      this.cdr.detectChanges();
     }, 300);
     return this;
   }
@@ -197,6 +200,8 @@ export class PickerComponent implements ControlValueAccessor, OnInit, OnChanges 
       // todo：当ngModel传递一个未列表中的值的情况 & 多列时数据对应问题
       this._setDefault()._setText();
     }
+
+    this.cdr.detectChanges();
   }
 
   registerOnChange(fn: (_: any) => {}): void {

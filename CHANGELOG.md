@@ -1,3 +1,11 @@
+## [9.0.2](https://github.com/cipchk/ngx-weui/compare/9.0.0...9.0.2) (2020-08-16)
+
+
+
+## [9.0.1](https://github.com/cipchk/ngx-weui/compare/9.0.0...9.0.1) (2020-08-15)
+
+
+
 # [9.0.0](https://github.com/cipchk/ngx-weui/compare/8.0.0...9.0.0) (2020-06-28)
 
 `9.0.0` 主要是同步更新 WeUI 的 `2.3` 以上版本（受限于 [#858](https://github.com/Tencent/weui/issues/858) 可能与官网看到的暗黑主题色有出入），新增 `dark` 模式。

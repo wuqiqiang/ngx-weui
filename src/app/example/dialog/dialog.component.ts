@@ -1,7 +1,7 @@
 import { Component, OnDestroy, ViewChild, ViewEncapsulation } from '@angular/core';
-import { InputType, SkinType } from 'ngx-weui/core';
-import { DialogComponent, DialogConfig, DialogService } from 'ngx-weui/dialog';
-import { ToastService } from 'ngx-weui/toast';
+import { InputType, SkinType } from 'evm-ngx-weui/core';
+import { DialogComponent, DialogConfig, DialogService } from 'evm-ngx-weui/dialog';
+import { ToastService } from 'evm-ngx-weui/toast';
 
 @Component({
   selector: 'example-dialog',

@@ -1,6 +1,6 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
-import { JWeiXinService } from 'ngx-weui/jweixin';
+import { JWeiXinService } from 'evm-ngx-weui/jweixin';
 import { throwError } from 'rxjs';
 import { catchError } from 'rxjs/operators';
 

@@ -1,9 +1,9 @@
 import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { FormModule } from 'ngx-weui/form';
-import { MaskModule } from 'ngx-weui/mask';
-import { SliderModule } from 'ngx-weui/slider';
+import { FormModule } from 'evm-ngx-weui/form';
+import { MaskModule } from 'evm-ngx-weui/mask';
+import { SliderModule } from 'evm-ngx-weui/slider';
 
 import { DialogComponent } from './dialog.component';
 

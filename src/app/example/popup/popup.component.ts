@@ -1,6 +1,6 @@
 import { Component, ViewChild, ViewEncapsulation } from '@angular/core';
 
-import { PopupComponent } from 'ngx-weui/popup';
+import { PopupComponent } from 'evm-ngx-weui/popup';
 
 @Component({
   selector: 'example-popup',

@@ -10,7 +10,7 @@ import {
   ViewChild,
   ViewEncapsulation,
 } from '@angular/core';
-import { InputNumber } from 'ngx-weui/core';
+import { InputNumber } from 'evm-ngx-weui/core';
 import { Subject, Subscription } from 'rxjs';
 import { debounceTime, distinctUntilChanged } from 'rxjs/operators';
 import { SearchBarConfig } from './searchbar.config';

@@ -1,5 +1,5 @@
 import { Component, ViewChild } from '@angular/core';
-import { MaskComponent } from 'ngx-weui/mask';
+import { MaskComponent } from 'evm-ngx-weui/mask';
 
 @Component({
   selector: 'example-mask',

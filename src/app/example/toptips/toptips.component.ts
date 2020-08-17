@@ -1,6 +1,6 @@
 import { Component, ViewChild, ViewEncapsulation } from '@angular/core';
 
-import { ToptipsComponent, ToptipsService, ToptipsType } from 'ngx-weui/toptips';
+import { ToptipsComponent, ToptipsService, ToptipsType } from 'evm-ngx-weui/toptips';
 
 @Component({
   selector: 'example-toptips',
@@ -12,7 +12,7 @@ export class DemoToptipsComponent {
   @ViewChild('toptips', { static: true }) toptips: ToptipsComponent;
   text = '';
   type: ToptipsType;
-  constructor(private srv: ToptipsService) { }
+  constructor(private srv: ToptipsService) {}
 
   onShow(type: ToptipsType) {
     this.type = type;

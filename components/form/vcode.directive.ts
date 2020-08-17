@@ -1,5 +1,5 @@
 import { Directive, ElementRef, Input, OnDestroy, OnInit } from '@angular/core';
-import { InputNumber } from 'ngx-weui/core';
+import { InputNumber } from 'evm-ngx-weui/core';
 import { Observable } from 'rxjs';
 
 /**

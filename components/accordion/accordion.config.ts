@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { AnimateType } from 'ngx-weui/core';
+import { AnimateType } from 'evm-ngx-weui/core';
 
 @Injectable({ providedIn: 'root' })
 export class AccordionConfig {

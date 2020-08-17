@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { ComponentFixture, inject, TestBed } from '@angular/core/testing';
-import { LoaderService } from 'ngx-weui/core';
+import { LoaderService } from 'evm-ngx-weui/core';
 import { JWeiXinModule } from './jweixin.module';
 import { JWeiXinService } from './jweixin.service';
 

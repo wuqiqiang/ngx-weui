@@ -3,7 +3,7 @@ import { NwSafeAny } from '../types';
 
 const record: Record<string, boolean> = {};
 
-export const PREFIX = '[NGX-WEUI]:';
+export const PREFIX = '[evm-ngx-weui]:';
 
 function notRecorded(...args: NwSafeAny[]): boolean {
   const asRecord = args.reduce((acc, c) => acc + c.toString(), '');

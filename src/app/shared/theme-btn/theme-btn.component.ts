@@ -1,6 +1,6 @@
 import { ChangeDetectionStrategy, Component, OnInit, Renderer2 } from '@angular/core';
-import { ActionSheetService } from 'ngx-weui/actionsheet';
-import { isSSR } from 'ngx-weui/core';
+import { ActionSheetService } from 'evm-ngx-weui/actionsheet';
+import { isSSR } from 'evm-ngx-weui/core';
 
 export type SiteTheme = 'light' | 'dark';
 

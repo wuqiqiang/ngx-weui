@@ -1,5 +1,5 @@
 import { Component, OnDestroy, ViewEncapsulation } from '@angular/core';
-import { PickerService } from 'ngx-weui/picker';
+import { PickerService } from 'evm-ngx-weui/picker';
 import { DATA } from './cn';
 
 @Component({
@@ -18,7 +18,7 @@ export class DemoPickerComponent implements OnDestroy {
     date: new Date(),
   };
 
-  constructor(private srv: PickerService) { }
+  constructor(private srv: PickerService) {}
 
   cityChange(item: any) {
     console.log(item);
@@ -73,6 +73,7 @@ export class DemoPickerComponent implements OnDestroy {
   ];
   onItemChange(data: any) {
     console.log('onItemChange', data);
+    this.res.mitem = '';
   }
   onItemGroupChange(data: any) {
     console.log('onItemGroupChange', data);
